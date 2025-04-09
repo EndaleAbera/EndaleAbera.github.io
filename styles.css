@@ -16,6 +16,7 @@ header, footer {
     background-color: #333;
     color: #fff;
     text-align: center;
+    text-decoration: none;
 }
 
 main {
@@ -27,6 +28,7 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
+    text-decoration: none;
 }
 
 .header-content {
@@ -36,11 +38,19 @@ header {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    text-decoration: none;
 }
 
 .logo {
     margin: 0;
     font-size: 1.5em;
+    text-decoration: none;
+}
+.logo a{
+    margin: 0;
+    font-size: 1.5em;
+    color: #f4f4f4;
+    text-decoration: none;
 }
 
 /* Navigation Styles */
@@ -273,6 +283,7 @@ footer {
 
     .logo {
         margin-bottom: 10px;
+        text-decoration: none;
     }
 
     nav {
