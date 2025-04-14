@@ -512,7 +512,7 @@ footer {
 /* Image Viewer Styles */
 .image-viewer {
     display: none;
-    position: fixed;
+    position: flex;
     top: 0;
     left: 0;
     width: 100%;
